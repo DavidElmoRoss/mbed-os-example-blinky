@@ -5,9 +5,6 @@
 
 #include "mbed.h"
 
-
-
-
 int main()
 {
     // Initialise the digital pin LED1 as an output
@@ -21,7 +18,7 @@ int main()
     {
         led = 0;       // turn ON RED led
         ThisThread::sleep_for(500ms);
-        led = 1;       // tunr OFF RED led 
+        led = 1;       // turn OFF RED led 
         ThisThread::sleep_for(500ms);
     }
 }
